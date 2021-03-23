@@ -1,8 +1,14 @@
 // on crée notre variable
-let taille;
+let serveur;
 
-// on affecte 34 à notre variable taille
-taille = 34;
+// on affecte un dictionnaire à notre variable serveur
+serveur = {
+    'nom' : 'Dupont',
+    'prenom' : 'Jean-Pierre',
+    'age' : 36,
+    'salaires' : [1550, 2349, 1600],
+    'marie' : true
+};
 
-// on affiche le contenu de taille
-console.log(taille);
+// on affiche le contenu de serveur
+console.log(serveur);
