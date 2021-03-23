@@ -1,7 +1,7 @@
-// on crée notre variable
+// 1. on crée notre variable
 let serveur;
 
-// on affecte un dictionnaire à notre variable serveur
+// 2. on affecte un dictionnaire à notre variable serveur
 serveur = {
     'nom' : 'Dupont',
     'prenom' : 'Jean-Pierre',
@@ -10,5 +10,5 @@ serveur = {
     'marie' : true
 };
 
-// on affiche le contenu de serveur
+// 3. on affiche le contenu de serveur
 console.log(serveur);
